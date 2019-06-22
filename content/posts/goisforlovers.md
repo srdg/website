@@ -15,8 +15,6 @@ categories = [
     "golang",
 ]
 series = ["Hugo 101"]
-[ author ]
-  name = "Hugo Authors"
 draft = true
 +++
 
