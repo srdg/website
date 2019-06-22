@@ -2,6 +2,7 @@
 title: Migrate to Hugo from Jekyll
 date: 2014-03-10
 categories: ["Uncategorized"]
+draft: true
 ---
 
 ## Move static content to `static`

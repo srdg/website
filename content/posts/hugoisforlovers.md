@@ -14,7 +14,7 @@ categories = [
     "golang",
 ]
 series = ["Hugo 101"]
-draft = false
+draft = true
 showComments = true
 +++
 
