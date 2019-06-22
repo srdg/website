@@ -2,7 +2,8 @@
 layout: post
 comments: false
 title:  "Detection of diseases in potato leaves using transfer learning"
-description: "by Soumik Ranjan Dasgupta, Somnath Rakshit, Dhiman Mondal and Dipak Kumar Kole"
+description: "by Soumik Ranjan Dasgupta, Somnath Rakshit, Dhiman Mondal and Dipak K. Kole"
+subtitle: "CIPR, January, 2019, Kolkata, India (Accepted and Presented)"
 date:   2019-01-08 15:04:23
 categories: [conference paper]
 tags: [transfer learning, deep learning, computer vision]
