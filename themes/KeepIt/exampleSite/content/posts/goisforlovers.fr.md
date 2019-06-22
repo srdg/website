@@ -1,7 +1,7 @@
 +++
 categories = ["Go"]
 date = "2014-04-02"
-description = "A random description"
+description = ""
 featured = "pic02.jpg"
 featuredalt = ""
 featuredpath = "date"
@@ -9,7 +9,8 @@ linktitle = ""
 slug = "Introduction aux modeles Hugo"
 title = "Introduction aux modèles (Hu)go"
 type = ["posts","post"]
-draft = "true"
+[ author ]
+  name = "Michael Henderson"
 +++
 
 Hugo utilise l'excellente librairie [go][] [html/template][gohtmltemplate] pour
