@@ -1,7 +1,7 @@
 ---
 title:  "CerGen"
-date:   2016-10-08 15:04:23
-categories: [automation,utilities]
+date:   2017-08-02 15:04:23
+categories: [automation]
 tags: [utility script, automation, hack]
 ---
 

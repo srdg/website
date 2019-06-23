@@ -1,7 +1,7 @@
 baseURL = "https://lucid-einstein-a5d5d2.netlify.com"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "Home"
+title = "Soumik"
 theme = "KeepIt"
 
 paginate = 12
@@ -66,7 +66,7 @@ disqusShortname = "soumikonline"
     socialShare = true
     
     description = "An awesome site" # site description
-    keywords = "" # site keywords
+    keywords = "portfolio, soumik, work" # site keywords
 
     # license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
