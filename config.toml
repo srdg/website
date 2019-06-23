@@ -1,7 +1,7 @@
-baseURL = "https://lucid-einstein-a5d5d2.netlify.com"
+baseURL = "https://soumik.netlify.com"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "Soumik"
+title = "Soumik's"
 theme = "KeepIt"
 
 paginate = 12
