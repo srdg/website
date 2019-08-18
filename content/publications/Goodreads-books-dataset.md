@@ -2,7 +2,6 @@
 layout : post
 comments : false
 date : "2019-08-18T19:59:47+05:30"
-draft : true
 title : "Goodreads books dataset"
 description : "A comprehensive list of all books listed in goodreads."
 subtitle: "Among the hottest datasets in Kaggle"
