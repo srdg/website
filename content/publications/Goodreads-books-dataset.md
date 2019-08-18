@@ -4,7 +4,7 @@ comments : false
 date : "2019-08-18T19:59:47+05:30"
 title : "Goodreads books dataset"
 description : "A comprehensive list of all books listed in goodreads."
-subtitle: "Among the hottest datasets in Kaggle"
+subtitle: "Among the hottest datasets in Kaggle, with 8k+ downloads!"
 categories : [dataset]
 tags : [dataset, kaggle, EDA, clean data, books dataset, exploratory data analysis, recommendation engine]
 ---
@@ -34,3 +34,7 @@ Here is a short description of the features this dataset includes.
 + num_pages: Number of pages the book contains.
 + ratings_count: Total number of ratings the book received.
 + text_reviews_count: Total number of written text reviews the book received.
+
+
+### Link to dataset
+The dataset can be found [here!](https://www.kaggle.com/jealousleopard/goodreadsbooks)
