@@ -4,7 +4,7 @@ comments: false
 title: Face Recognition using transfer learning
 description: by Soumik Ranjan Dasgupta and Srinibas Rana
 subtitle: 'ICIMSAT, September, 2019, Siliguri, India (Accepted and Presented)'
-date: {}
+date: 2019-09-21T15:04:23.000Z
 categories:
   - conference paper
 tags:
