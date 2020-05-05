@@ -9,6 +9,7 @@ tags:
  - data structures
 categories:
  - algorithms
+markup: "mmark"
 ---
 
 This post is about getting an intuitive approach to a few popular sorting algorithms. Rather than diving headfirst into the algorithms, we'll reach to it from another way. Let's get started.
@@ -81,9 +82,12 @@ Here, we get a golden opportunity. If the element is trivially sorted in itself,
 |---|---|---|---|---|                 
 
 
+can be broken to 
+
 | 8 | 1 | 4 |
 |---|---|---|
 
+which can further break down to
 
 | 8 |       
 |---| 
