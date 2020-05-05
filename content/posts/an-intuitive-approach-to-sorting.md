@@ -83,8 +83,10 @@ Here, we get a golden opportunity. If the element is trivially sorted in itself,
 |---|---|---|
 
 | 8 |       
-|---|  
+|---| 
+
 and     
+
 | 1 | 4 |
 |---|---|
 
