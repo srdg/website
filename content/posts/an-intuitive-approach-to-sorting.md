@@ -72,7 +72,7 @@ Well, by a lucky stroke of genius you'd probably have figured out by now that we
 The answer lies in a simple strategy called "Divide-and-Conquer", and its not unlike the trademark strategies used during the periods of colonialization. The idea is to divide your huge problem into subproblems, and conquer them. Once you finish accumulating your results, you'd have solved the original problem you began with. (Think of it as like you're given a large bundle of sticks and asked to break it. You couldn't break all of them together, so you took a few sticks at a time and broke them. At the end you collected all the broken sticks and your problem is solved!)
 
 Before we dive further, there is one thing we need to keep in mind.
-> An element is trivially sorted. This means that if you have an array with only one element, say 10, it is already sorted - because there is no other element to compare it to.
+ >    An element is trivially sorted. This means that if you have an array with only one element, say 10, it is already sorted - because there is no other element to compare it to.
 
 Here, we get a golden opportunity. If the element is trivially sorted in itself, why not recursively break down our array into subparts? Like below:
 
