@@ -97,20 +97,23 @@ and
 | 1 | 4 |
 |---|---|
 
-You get the point, right? (Note that I didn't show the complete array here).
+You get the point, right? (Note that I didn't show the complete array here).  
 And because each element is trivially sorted, we can merge them together as we go up, such that the merged arrays are sorted!
-But here's the question, how will we merge? Let's think about it a bit.
-**Take any instant of time. You have two sorted subarrays X and Y, of length p and q respectively (p≠q).**
-Now if we have to merge them together, we need a new array, right? You can't just add stuff to any of the existing arrays, because _static arrays are immutable w.r.t. size by definition_.
-Thus, we need a new array of size **p+q**. Let's name it Z. Now our task is to enter all the elements in X and Y in Z. In order to do that, we need to iterate over the elements X and Y (let's use variables _i_ and _j_ for them).
-We look at the first element in both X and Y. Now, there are 3 possibilities : X[0]>Y[0], X[0]<Y[0], or X[0]=Y[0].
-The first case, we add X[0] to Z, and increase the index pointer _i_ by 1.
-The second case, we add Y[0] to Z, and increase the index pointer _j_ by 1.
-The third case, we add both of them to Z, and increase both counters by 1.
+But here's the question, how will we merge? Let's think about it a bit.  
+**Take any instant of time. You have two sorted subarrays X and Y, of length p and q respectively (p≠q).**  
+Now if we have to merge them together, we need a new array, right? You can't just add stuff to any of the existing arrays, because _static arrays are immutable w.r.t. size by definition_.  
+Thus, we need a new array of size **p+q**. Let's name it Z. Now our task is to enter all the elements in X and Y in Z. In order to do that, we need to iterate over the elements X and Y (let's use variables _i_ and _j_ for them).  
+We look at the first element in both X and Y. Now, there are 3 possibilities : X[0]>Y[0], X[0]<Y[0], or X[0]=Y[0].  
+The first case, we add X[0] to Z, and increase the index pointer _i_ by 1.  
+The second case, we add Y[0] to Z, and increase the index pointer _j_ by 1.  
+The third case, we add both of them to Z, and increase both counters by 1.  
 
-Let us continue this for all the elements in X and Y. Sooner or later, one of the arrays will be exhausted of all elements, or both of the arrays will get exhausted at the same time.
-If the second case happens, its perfect! Because we don't have to do extra work, and since we are always adding the smaller of the two elements, we can guarantee that the array Z is fully sorted.
-Unfortunately, more often than not, the first case is the reality. What can we do here? Well, remember the assumption we started with - that the subarrays are already sorted? Since upto now we've always added the smaller elements in the two subarrays, we can add the rest of the elements that are left out in either X or Y.
+
+
+Let us continue this for all the elements in X and Y. Sooner or later, one of the arrays will be exhausted of all elements, or both of the arrays will get exhausted at the same time.  
+If the second case happens, its perfect! Because we don't have to do extra work, and since we are always adding the smaller of the two elements, we can guarantee that the array Z is fully sorted.  
+Unfortunately, more often than not, the first case is the reality. What can we do here? Well, remember the assumption we started with - that the subarrays are already sorted? Since upto now we've always added the smaller elements in the two subarrays, we can add the rest of the elements that are left out in either X or Y.  
+
 
 Confusing? Here's an example. Say X=(3,27,38,43) and Y=(9,10,82). Initially _i_ points to 3 and _j_ points to 9.  
 We compare _X[i] with Y[j]_. Since 3<9, we add Z[0]=3. _i_ now points to 27.  
