@@ -84,7 +84,7 @@ Here, we get a golden opportunity. If the element is trivially sorted in itself,
 
 can be broken to 
 
-| 8 | 1 | 4 |
+| 8 | 1 | 4 |   
 |---|---|---|
 
 which can further break down to
@@ -94,7 +94,7 @@ which can further break down to
 
 and     
 
-| 1 | 4 |
+| 1 | 4 |   
 |---|---|
 
 You get the point, right? (Note that I didn't show the complete array here).  
