@@ -78,23 +78,23 @@ Before we dive further, there is one thing we need to keep in mind.
 Here, we get a golden opportunity. If the element is trivially sorted in itself, why not recursively break down our array into subparts? Like below:
 
 
-| 5 | 7 | 8 | 1 | 4 |                 
+| 5 | 7 | 8 | 1 | 4 |
 |---|---|---|---|---|                 
 
 
 can be broken to 
 
-| 8 | 1 | 4 |   
+| 8 | 1 | 4 |
 |---|---|---|
 
 which can further break down to
 
-| 8 |       
+| 8 |
 |---| 
 
 and     
 
-| 1 | 4 |   
+| 1 | 4 |
 |---|---|
 
 You get the point, right? (Note that I didn't show the complete array here).  
