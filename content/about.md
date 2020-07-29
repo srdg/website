@@ -15,7 +15,7 @@ My name is **Soumik Ranjan Dasgupta**. You can call me Arjo, too. Here are some 
 
 ### What have I done?
 
-Currently, I am placed as an Associate Software Engineer at [RBEI](https://www.bosch.in/). Previously, I have collaborated with [ThetaOne Labs](http://thetaonelab.com/) and [VIR Softech](https://www.virsoftech.com/) to provide deep-learning based solutions. As for academics, I am a graduate in Computer Science and Engineering from [Jalpaiguri Government Engineering College](https://jgec.ac.in).
+Currently, I am placed as an Associate Software Engineer at [RBEI](https://www.bosch.in/). Previously, I have collaborated with [ThetaOne Labs](http://thetaonelab.com/) and [VIR Softech](https://www.virsoftech.com/) to provide deep-learning based solutions. As for academics, I am an undergraduate in Computer Science and Engineering from [Jalpaiguri Government Engineering College](https://jgec.ac.in).
 
 ### What else?
 
@@ -25,3 +25,5 @@ One of the key aspects I believe in is growing together. Apart from that, I am a
 [Linkedin](https://www.linkedin.com/in/soumik-ranjan-dasgupta/)  
 [soumik@cse.jgec.ac.in](mailto:soumik@cse.jgec.ac.in)
 
+#### [Me as a sourcerer](https://sourcerer.io/srdg)
+See what I did there?
