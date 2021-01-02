@@ -1,4 +1,4 @@
-baseURL = "https://srdg.github.io/website/"
+baseURL = "."
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Soumik Ranjan Dasgupta"
